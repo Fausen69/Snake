@@ -1,0 +1,15 @@
+WINDOW_SIZE = 400
+CELL_SIZE = 20
+GRID_SIZE = WINDOW_SIZE // CELL_SIZE
+FPS = 10
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+DARK_GREEN = (0, 180, 0)
+RED = (255, 0, 0)
+
+UP = (0, -1)
+DOWN = (0, 1)
+LEFT = (-1, 0)
+RIGHT = (1, 0)
