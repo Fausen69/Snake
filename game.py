@@ -52,7 +52,7 @@ class Game:
                     sys.exit()
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_r:
-                        return True  # Перезапуск
+                        return True  
                     if event.key == pygame.K_q:
                         pygame.quit()
                         sys.exit()
@@ -70,7 +70,6 @@ class Game:
                 self.handle_events()
                 self.snake.move()
 
-                # Проверка проигрыша
                 if self.check_wall_collision() or self.snake.check_self_collision():
                     self.running = False
                     if self.game_over_screen():
